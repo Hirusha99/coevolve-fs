@@ -4,19 +4,21 @@ The library is designed to work seamlessly with Scikit-Learn. It follows a "fit"
 If you have the library saved locally, install it in your environment using:
 bash
 
-`pip install .`
-
+```bash
+pip install .
+```
 Use code with caution.
 
 3. Basic Implementation
 This example demonstrates how to use the CoevolutionarySelector with a Naive Bayes classifier on a sample dataset.
 
-
+```python
 `import pandas as pd`
 `from sklearn.datasets import load_breast_cancer`
 `from sklearn.model_selection import train_test_split`
 `from sklearn.naive_bayes import GaussianNB`
 `from coevolve_fs import CoevolutionarySelector`
+```
 
 ## 1. Prepare your data
 `data = load_breast_cancer()`
