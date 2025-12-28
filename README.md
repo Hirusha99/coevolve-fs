@@ -70,9 +70,14 @@ Use code with caution.
 
 ### Explanation of Parameters
 classifier: Any object with .fit() and .predict() methods (e.g., RandomForest, SVM, or XGBoost).
+
 population_size: The number of chromosomes in each subgroup's population. Higher values explore more but are slower.
+
 generations: How many iterations the evolution process runs for each subgroup.
+
 columns_per_subgroup: The core "Co-evolutionary" parameter. It splits your total features into smaller chunks. For example, if you have 100 features and set this to 10, the library will evolve 10 independent subgroups.
+
 mutation_prob: The chance that a feature's "on/off" status will flip during evolution (helps avoid getting stuck in local optima).
+
 Advanced: Integrating with Pipelines
 Because it returns a boolean mask (1s and 0s), you can easily integrate this library into a Scikit-Learn Pipeline by using a FunctionTransformer to filter columns based on the best_mask output.
