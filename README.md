@@ -11,6 +11,7 @@ Use code with caution.
 3. Basic Implementation
 This example demonstrates how to use the CoevolutionarySelector with a Naive Bayes classifier on a sample dataset.
 
+
 `import pandas as pd`
 `from sklearn.datasets import load_breast_cancer`
 `from sklearn.model_selection import train_test_split`
@@ -37,11 +38,14 @@ This example demonstrates how to use the CoevolutionarySelector with a Naive Bay
 
 ## 3. Run the Co-evolutionary Search
 ## 'columns_per_subgroup' defines how the feature space is divided
-`best_mask = selector.fit(
+
+```python
+best_mask = selector.fit(
     X_train, y_train, 
     X_test, y_test, 
     columns_per_subgroup=10
-)`
+)
+```
 
 ## 4. Apply the results
 `selected_features = X_train.columns[best_mask == 1]
