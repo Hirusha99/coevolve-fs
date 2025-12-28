@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: coevolve-fs
+Version: 2025.1.0
+Summary: A Cooperative Co-evolutionary Genetic Algorithm for feature selection.
+Author-email: Your Name <your@email.com>
+Project-URL: Homepage, github.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn

@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/coevolve_fs/__init__.py
+src/coevolve_fs/selector.py
+src/coevolve_fs.egg-info/PKG-INFO
+src/coevolve_fs.egg-info/SOURCES.txt
+src/coevolve_fs.egg-info/dependency_links.txt
+src/coevolve_fs.egg-info/requires.txt
+src/coevolve_fs.egg-info/top_level.txt
