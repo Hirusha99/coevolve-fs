@@ -3,10 +3,12 @@ The library is designed to work seamlessly with Scikit-Learn. It follows a "fit"
 1. Installation
 If you have the library saved locally, install it in your environment using:
 bash
+
 `pip install .`
+
 Use code with caution.
 
-2. Basic Implementation
+3. Basic Implementation
 This example demonstrates how to use the CoevolutionarySelector with a Naive Bayes classifier on a sample dataset.
 
 `import pandas as pd`
