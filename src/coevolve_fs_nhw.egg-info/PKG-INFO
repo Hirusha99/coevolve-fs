@@ -1,14 +1,26 @@
+Metadata-Version: 2.4
+Name: coevolve-fs-nhw
+Version: 2025.1.0
+Summary: A Cooperative Co-evolutionary Genetic Algorithm for feature selection.
+Author-email: Hirusha Wanigasingha <hirushanethni2277@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/Hirusha99/coevolve-fs
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Dynamic: license-file
+
 # How to Use coevolve-fs
 The library is designed to work seamlessly with Scikit-Learn. It follows a "fit" pattern similar to standard machine learning models.
-
-Guide: https://test.pypi.org/project/coevolve-fs-nhw/2025.1.0/
-
 1. Installation
 If you have the library saved locally, install it in your environment using:
 bash
 
 ```bash
-pip install -i https://test.pypi.org/simple/ coevolve-fs-nhw==2025.1.0
+pip install .
 ```
 Use code with caution.
 
